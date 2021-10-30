@@ -1,0 +1,7 @@
+                                                DEFINICIONES
+
+1-Arrays o arreglos:
+Basicamente se usa para agrupar valores, la cual guarda todo en una matriz que esta numerada desde el cero hacia adelante
+tambien se puede modificar los valores como una variante
+por ejemplo, puede usarse para agrupar una serie de datos en comun para luego llamar a un array en ves de editar uno a uno
+tambien puede usarse para hacer operaciones con esos datos en comun con otro dato, tanto como para hacer una operacion de numeros , agregar nuevos datos o compararlos.
