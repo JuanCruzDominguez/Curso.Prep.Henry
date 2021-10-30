@@ -36,6 +36,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+  var suma = x + y;
+  return suma
   return (x+y)
 
 }
@@ -43,18 +45,24 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
+  var resta = x - y;
+  return resta
   return (x-y)
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var multiplicacion = x * y;
+  return multiplicacion
   return (x*y)
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  var divicion = x / y
+  return divicion
   return (x/y)
 }
 
@@ -73,6 +81,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (str1.length === str2.length){
+    return true;
+  } else {
+    return false;
+  } 
 return str1.length === str2.length;  
 }
 
@@ -97,6 +110,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  var resto = x % y;
+  return resto
   return (x%y)
 }
 
