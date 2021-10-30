@@ -1,0 +1,24 @@
+                                        DEFINICIONES JSI
+
+
+1-VARIABLES:
+
+ una variable es una forma de almacenar informacion o valor de algo para poder usarlo y/o modificarlo mas tarde.
+
+2-STRINGS:
+
+ los strings serian una conjunto de caracteres ya sean letras o numeros. y deben ir enmarcados con comillas para que en el codigo lo tome como tal.
+
+3-FUNCIONES:
+
+ las funciones son una manera de dar instruciones para lograr el proseso que el programador quiere ejecutar.
+(los argumentos son usados para ponerle valores a la funcion en los que despues seran definidos dentro de la misma funcion, serian como variables,
+pero q no pueden ser llamadas desde otra parte del codigo),(el return se utilza para finalizar la ejecucion de la funcion y obtener el resultado de la misma).
+
+4-DECLARAIONES "IF":
+
+ las declaraciones if son funciones o posibles resultados pre programados para que depende una condicion haga una accion.
+
+5-VALORES BOOLEANOS:
+
+los valores booleanos se utilizan para guardar informacion que solo puede tener dos estados(vardadero o falso).
