@@ -9,15 +9,33 @@ function deObjetoAmatriz(objeto){
       B: 2,
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
-  //Escribe tu código aquí
-}
+  //Escribe tu código aqui
 
+    const nuevoArray = []
+    for (x in objeto){
+      nuevoArray.push([x, objeto[x]])
+    };
+       
+
+    return nuevoArray; 
+    
+ 
+ }  
+    
+  
+  
 
 function numberOfCharacters(string) {
   //La función recibe un string. Recorre el srting y devuelve el caracter con el número de veces que aparece 
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  translate()
+    var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
+    var letras = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "w", "y", "x", "z");
+    while(number === letras) {
+      return letras + number
+    }
 }
 
 
@@ -35,6 +53,9 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+
+  var frase = "frase para invertir"()
+  return frase 
 } 
 
 
@@ -83,4 +104,3 @@ module.exports = {
    sortArray,
    buscoInterseccion,
 };
-
