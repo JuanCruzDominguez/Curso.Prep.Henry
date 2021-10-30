@@ -1,0 +1,11 @@
+1-FOR:
+la exprecion for es usada para hacer un tipo de bucle con condiciones.
+
+2-
+a_&&:
+el and es un tipo de operador que normalmente se usa como operador de comparacion o en el caso de ser usado en 
+una sentencia "if" puede usarse como "y" para agregar mas condiciones a la misma sentencia.
+b_OR: 
+el operador or es un operador logico de comparacion,pero es lo contrario a AND y significaria "O" en ves de "Y" .
+c_"!":
+ significa NOT (no) o una negacion.
