@@ -1,0 +1,67 @@
+h1 {
+
+	max-width: 300px;
+	margin: 0 auto;
+	color: rgb(255, 69, 0);}
+h3 {
+	max-width: 100px;
+	margin: 10 auto;
+}	
+h4 {
+	position: relative;
+	max-width: 900px;
+	margin: 20 auto;
+	
+}
+span #spanId{
+	max-width: 500px;
+	margin: 0 auto;
+	color: white;
+}
+	
+a{
+ 	display: inline-flex;
+ 	
+	color: greenyellow;
+}
+	 
+img{
+	width: 400px;
+}
+
+#thirdDiv {
+	max-width: 500px;
+	margin: 100px auto;
+	height: 600px;
+	width: 500px;
+	border: 10px solid black;
+	padding: 50px; 
+	color: black;
+}
+
+#spanId {
+	color: darkred;
+	font: 16px;
+	margin: 50px;
+}
+
+.box {
+	display: block;
+
+	text-align: center ;
+
+ 	justify-content: center;
+
+ 	color: lime;
+
+ }
+
+body {
+	background: url(../fondo1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+};	 
+	   
+	
