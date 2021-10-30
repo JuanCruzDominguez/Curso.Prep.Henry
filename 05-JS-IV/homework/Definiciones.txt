@@ -1,0 +1,29 @@
+                                        DEFINICIONES
+
+
+
+1-Objetos:
+ los objetos se utilizan para agrupar las propiedades.
+
+
+2-Propiedades:
+una propiedad se le llama a una referencia de datos que queramos guaradar ,definido entre una clave y un valor (un nombre y un valor) dentro de un objeto.
+
+
+3-Metodos:
+cuando la propiedad del objeto es una funcion se define como metodo
+entonces un metodo seria una propiedad "function" dentro de un objeto. 
+
+
+4-Bucles_for..in:
+for..in se usa para iterar las propiedades adjuntas y heredadas de un objeto  , aunque no se recomienda usarlo en un arreglo,
+es mas recomendable utilizar for..of, o en el caso de querer iterar sobre las propiedades adjuntas y no las heredadas se puede usar "getOwnPropertyNames()".
+
+
+5-Notacion de Puntos:
+la notacion de puntos se usa para referirse a la propiedad de un objeto pero de forma literar.
+
+
+
+6-Notacion de Corchetes:
+la notacion de corchetes se usa para recorrer dentro del objeto y referirse a una propiedad o una variable.
