@@ -3,17 +3,25 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+.Nombre {
+	margin: 10px;
+}
 
-img {
+img { 
 	max-width: 200px;
      margin: 0px;
+     align-content: center;
 
 }
-div #fotoCv {
-	display: block;
-	position: relative;
-	top: -1000px;
-	left: 900px;
-	text-align: flex-end;
-	background-color: black;
+#fotoCv {
+	position: absolute;
+	left: 850px;
+	bottom: 50px;
+}
+
+body {
+	background: url(./image-cv/fondoCv.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
 }
