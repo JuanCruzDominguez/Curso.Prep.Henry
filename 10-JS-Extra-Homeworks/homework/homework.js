@@ -30,12 +30,8 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
-  translate()
-    var number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
-    var letras = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "w", "y", "x", "z");
-    while(number === letras) {
-      return letras + number
-    }
+  
+
 }
 
 
@@ -64,6 +60,13 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  String palabra = string.valueOf(numero);
+ for (var i = 0, j = palabra.length() - 1; i <= j; i++, --j){
+  if (palabra.charAt(i) != palabra.charAt(j)){
+    return "No es capicua"
+  }
+ }
+ return "No es capicua"
 }
 
 
